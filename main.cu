@@ -35,7 +35,7 @@ __global__ void sieve_of_eratosthenes_kernel(int *prime, unsigned int n, unsigne
 
 int main()
 {
-	unsigned int N = 1*100*1024;
+	unsigned int N = 1*100*1024*1000;
 	unsigned int M = (unsigned int)sqrt(N);
 	int *h_primes;
 	int *d_primes;
